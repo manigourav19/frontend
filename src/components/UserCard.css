@@ -1,0 +1,46 @@
+.user-card {
+    background: linear-gradient(135deg, #ffffff, #f0f8ff);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #e0e0e0; /* Optional: subtle border for better definition */
+  }
+  
+  .user-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  }
+  
+  h3 {
+    color: #2c3e50; /* Darker color for better contrast */
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  p {
+    color: #34495e; /* Softer, stylish color */
+    margin: 5px 0 15px;
+    font-size: 16px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-gallery img {
+    border-radius: 8px;
+    margin: 5px;
+    transition: transform 0.3s, filter 0.3s; /* Added filter transition */
+    border: 2px solid #2980b9; /* Add a border around the images */
+    filter: brightness(90%); /* Slightly darken the images */
+  }
+  
+  .image-gallery img:hover {
+    transform: scale(1.1);
+    filter: brightness(100%); /* Restore brightness on hover */
+  }
